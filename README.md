@@ -18,7 +18,7 @@
         - **Inheritance** is simply the redeclaration of a group of variable and functins within an enclosing scope. But C can do it a tricky way, so OO languages did not give us something completely brand new, it did make the masquerading of data structures significantly more convenient.
         - **Polymorphism** is an application of pointer to functions, programmer have been using pointer to functions to achieve polymorphic behavior long ago. OO languages make it safer and much more convient. Using pointer to function to create polymorphic behavior is that pointer to function are *dangerous*. 
     - So, from the software architect, **OO is the ability, through the use of polymorphism, to gain absolute control over ervery source code dependency in the system. It allows the architect to create a plugin architecture, in which modules that contain high-level policies are independent of modules that contain low-level details. The low-level details are relegated to plugin modules that can be deployed and developed independently from the modules that contain high-level policies.**
-- Functional Programming
+- Functional Programming impose discipline upon variable assignment
     - Variables in functional languages do not vary
     - All race conditions, deadlock conditions and concurrent update problems are due to mutable variables. You cannot have a race conditin or a concurrent update problem if no variale is ever updated. You cannot have deadlocks without mutable locks.
     - Functional programing require much more memory and computing speed to work efficently.
