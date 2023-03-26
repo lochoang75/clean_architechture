@@ -22,3 +22,5 @@
     - Variables in functional languages do not vary
     - All race conditions, deadlock conditions and concurrent update problems are due to mutable variables. You cannot have a race conditin or a concurrent update problem if no variale is ever updated. You cannot have deadlocks without mutable locks.
     - Functional programing require much more memory and computing speed to work efficently.
+
+- Software is composed of sequence, selection, iteration, and indirection.

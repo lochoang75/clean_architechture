@@ -1,0 +1,21 @@
+# Clean Architecture
+## SOLID Principles
+- A class is simply a coupled grouping of functions and data.
+- Every software system has such groupings, whether they are called classes or not.
+- The goal of the principles is the creation of mid-level software structures that:
+    - Tolerate change,
+    - Are easy to understand, and
+    - Are the basis of components that can be used in many software systems.
+- **SRP**: The Single Responsibility Principle
+    - An active corllary to Conway's law: The best structure for a software systems to be easy to change, they must be designed to allow the behavior of these systems to be changed by adding new code, rather than changing existing code.
+    - **A module should be responsible to one, and only one actor**
+- **OCP**: The Open-Closed Principle
+    - The gist is that software system to be easy to change, they must be design to allow the behavior of those systems to be changed by adding new code, rather than changing existing code.
+    - **A software artifact should be open for extension but closed for modification**
+- **LSP**: The Liskov Subtitution Principle
+    - This priciple says that to build software systems from interchangeable parts, thos parts must adhere to a contract  that allows those parts to be substituted one for another.
+    - **What is wanted here is something like the following substitution property: If for each object O1 of type S there is an object O2 of type T souch that for all programs P defined in terms of T, the behavior of P is unchanged when O1 is substituted for O2 then S is a subtype of T**
+- **ISP**: The Interface Segregation Principle
+    - This Principle advices software designers to avoid depending on things that they don't use.
+- **DIP**: The Dependency Inversion Principle
+    - The code that implements high-level policy should not depending on the code that implements on low level details. Rater, details should depend on policies.
